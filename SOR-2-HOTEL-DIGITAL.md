@@ -43,6 +43,7 @@ Tarea 7: Auditoría de Seguridad Inicial (CE g)
 Tarea 8: Movilidad y Despliegue de Perfiles (CE h)
 • Criterio asociado: Se han planificado perfiles móviles de usuarios.
 • Tarea: Planificar perfiles móviles de usuarios para el equipo de Dirección y Mantenimiento. Dado que estos empleados rotan entre diferentes ubicaciones (oficinas, almacenes, zonas comunes) y utilizan distintos equipos, se debe diseñar la estructura de carpetas compartidas y la configuración del servidor que soporten la replicación de sus configuraciones.
+R)No se donde puedo encontrar el menu para inicar a realizar esta actividad.
  
 Tarea 9: Aplicación de Herramientas de Administración (CE i)
 • Criterio asociado: Se han utilizado herramientas para la administración de usuarios y grupos, incluidas en el sistema operativo en red.
