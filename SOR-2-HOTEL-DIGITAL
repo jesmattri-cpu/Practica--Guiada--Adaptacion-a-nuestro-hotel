@@ -1,0 +1,37 @@
+Tarea 1: Creación de Cuentas Operativas (CE a)
+• Criterio asociado: Se han configurado y gestionado cuentas de usuario.
+• Tarea: Configurar las nuevas cuentas de usuario para los empleados de la temporada alta (personal de recepción y nuevos camareros). Esto incluye establecer las políticas de caducidad de contraseñas y las restricciones horarias de inicio de sesión para el personal operativo, asegurando la correcta gestión de cuentas de usuario.
+ hhnhbh
+Tarea 2: Definición de Entornos de Trabajo (CE b)
+• Criterio asociado: Se han configurado y gestionado perfiles de usuario.
+• Tarea: Configurar y gestionar los perfiles de usuario específicos para dos roles críticos:
+    1. El perfil del Controller (administrador financiero), que requiere acceso restringido a carpetas compartidas y herramientas de contabilidad.
+    2. El perfil del personal de Recepción, que necesita el software de gestión hotelera (PMS) como acceso predeterminado.
+ 
+Tarea 3: Registro de Dispositivos (CE c)
+• Criterio asociado: Se han configurado y gestionado cuentas de equipo.
+• Tarea: Configurar y gestionar las cuentas de equipo para todos los dispositivos fijos nuevos incorporados a la red del hotel, incluyendo los TPV (Terminales de Punto de Venta) del restaurante y los ordenadores de uso compartido en el business center.
+ 
+Tarea 4: Diseño de la Estructura de Acceso (CE d)
+• Criterio asociado: Se ha distinguido el propósito de los grupos, sus tipos y ámbitos.
+• Tarea: Diseñar la jerarquía de grupos necesaria para la gestión de permisos. Esto implica distinguir el propósito de los grupos según su función (seguridad vs. distribución) y sus tipos y ámbitos (local de dominio, global, universal) para controlar el acceso a recursos específicos, como impresoras departamentales o carpetas de tarifas confidenciales.
+ 
+Tarea 5: Implementación de Grupos Funcionales (CE e)
+• Criterio asociado: Se han configurado y gestionado grupos.
+• Tarea: Configurar y gestionar los grupos de seguridad principales basándose en la Tarea 4. Por ejemplo, crear los grupos "GR_Recepción_Diurna" y "GR_Administración_TI". Esta tarea asegura que solo los miembros autorizados puedan acceder a los recursos de red necesarios.
+ 
+Tarea 6: Asignación de Permisos (CE f)
+• Criterio asociado: Se ha gestionado la pertenencia de usuarios a grupos.
+• Tarea: Gestionar la pertenencia de usuarios a grupos. Asignar a todos los empleados creados en la Tarea 1 a los grupos funcionales apropiados creados en la Tarea 5. Se debe asegurar, por ejemplo, que solo los miembros de "GR_Administración_TI" tengan acceso al servidor de copias de seguridad.
+ 
+Tarea 7: Auditoría de Seguridad Inicial (CE g)
+• Criterio asociado: Se han identificado las características de usuarios y grupos predeterminados y especiales.
+• Tarea: Realizar una auditoría inicial de seguridad. Esto implica identificar las características de usuarios y grupos predeterminados y especiales (como Administrator, Guest o Domain Admins) y documentar su estado de seguridad (por ejemplo, asegurando que la cuenta Guest esté deshabilitada y que la cuenta Administrator tenga un nombre de usuario renombrado por seguridad).
+ 
+Tarea 8: Movilidad y Despliegue de Perfiles (CE h)
+• Criterio asociado: Se han planificado perfiles móviles de usuarios.
+• Tarea: Planificar perfiles móviles de usuarios para el equipo de Dirección y Mantenimiento. Dado que estos empleados rotan entre diferentes ubicaciones (oficinas, almacenes, zonas comunes) y utilizan distintos equipos, se debe diseñar la estructura de carpetas compartidas y la configuración del servidor que soporten la replicación de sus configuraciones.
+ 
+Tarea 9: Aplicación de Herramientas de Administración (CE i)
+• Criterio asociado: Se han utilizado herramientas para la administración de usuarios y grupos, incluidas en el sistema operativo en red.
+• Tarea: Para completar todas las tareas anteriores (T1 a T8), el equipo deberá utilizar las herramientas de administración de usuarios y grupos, incluidas en el sistema operativo en red. Esto requiere demostrar la competencia en el uso eficiente de herramientas como Consola de Administración de Usuarios y Equipos de Active Directory o comandos de shell para la gestión masiva de las identidades del hotel.
