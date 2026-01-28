@@ -1,22 +1,26 @@
 Tarea 1: Creación de Cuentas Operativas (CE a)
 • Criterio asociado: Se han configurado y gestionado cuentas de usuario.
 • Tarea: Configurar las nuevas cuentas de usuario para los empleados de la temporada alta (personal de recepción y nuevos camareros). Esto incluye establecer las políticas de caducidad de contraseñas y las restricciones horarias de inicio de sesión para el personal operativo, asegurando la correcta gestión de cuentas de usuario.
-R) Para esta tarea he creado usuariosnpara cada empleado que pueda necesitar un ordenador o maquina conectada al servidor del horaio diurno y nocturno y de la rmama de administracion del hotel, tambien le he entrgado todo los premisos disponibles al usuario controller.
-<img width="428" height="479" alt="Admon-jesus" src="https://github.com/user-attachments/assets/49780bfa-6273-4823-8fa8-677213caaa8b" />
-<img width="1370" height="884" alt="Usuarios-con-permisos" src="https://github.com/user-attachments/assets/29c75a55-ec72-408e-b566-cb3056810aad" />
-
+R) Para esta tarea he creado usuarios para cada empleado que pueda necesitar un ordenador o maquina conectada al servidor del horaio diurno y nocturno y de la rmama de administracion del hotel, tambien le he entrgado todo los permisos disponibles al usuario controller.
+<img width="439" height="555" alt="Tarea -1" src="https://github.com/user-attachments/assets/31f8c395-bf19-4d53-8d4a-65151494287c" />
+<img width="430" height="543" alt="Tarea 1 2png" src="https://github.com/user-attachments/assets/bf130dc4-5a4e-4874-8d8b-0fc1058a117b" />
+<img width="449" height="522" alt="Tarea1 3" src="https://github.com/user-attachments/assets/e32b9c6e-bdbd-45cd-86ad-d4d6ccbc5d61" />
 
 Tarea 2: Definición de Entornos de Trabajo (CE b)
 • Criterio asociado: Se han configurado y gestionado perfiles de usuario.
 • Tarea: Configurar y gestionar los perfiles de usuario específicos para dos roles críticos:
     1. El perfil del Controller (administrador financiero), que requiere acceso restringido a carpetas compartidas y herramientas de contabilidad.
+    <img width="439" height="555" alt="Tarea -1" src="https://github.com/user-attachments/assets/1aa10268-faf2-43f9-a58f-d10aaf104dcf" />
+<img width="431" height="546" alt="Tarea 2 1" src="https://github.com/user-attachments/assets/ce12361d-002a-4f23-8d94-3d0466a91e43" />
     2. El perfil del personal de Recepción, que necesita el software de gestión hotelera (PMS) como acceso predeterminado.
- -Hay un grupo de trabajo para la administracion, servicio de clientes diurno y nocturno, cada uno tiene sus permisos definidos y sus cuentas con tiempo de expiracion.
+<img width="428" height="547" alt="Tarea 2 2" src="https://github.com/user-attachments/assets/b0b8b1d1-8a74-4b94-be6a-9b1449d92b49" />
+<img width="415" height="542" alt="Tarea2 3" src="https://github.com/user-attachments/assets/666255bc-73a0-447f-bdd1-f3a1d9c1f4c5" />
 
 Tarea 3: Registro de Dispositivos (CE c)
 • Criterio asociado: Se han configurado y gestionado cuentas de equipo.
 • Tarea: Configurar y gestionar las cuentas de equipo para todos los dispositivos fijos nuevos incorporados a la red del hotel, incluyendo los TPV (Terminales de Punto de Venta) del restaurante y los ordenadores de uso compartido en el business center.
  R) He configurado los orenadores y puntos de venta de todos los empleados y usuarios que los puedan necesitar, Cada una puesta en un grupo indicado (Administracion, servicios cliente diurno, Servicio cliente nocturno)
+<img width="477" height="517" alt="Tarea3 punto" src="https://github.com/user-attachments/assets/fc4fec12-5814-4aa5-bd56-68e6b95235f6" />
 
 Tarea 4: Diseño de la Estructura de Acceso (CE d)
 • Criterio asociado: Se ha distinguido el propósito de los grupos, sus tipos y ámbitos.
