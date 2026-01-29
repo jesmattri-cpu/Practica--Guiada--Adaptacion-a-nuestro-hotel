@@ -10,10 +10,15 @@ Tarea 2: Definición de Entornos de Trabajo (CE b)
 • Criterio asociado: Se han configurado y gestionado perfiles de usuario.
 • Tarea: Configurar y gestionar los perfiles de usuario específicos para dos roles críticos:
     1. El perfil del Controller (administrador financiero), que requiere acceso restringido a carpetas compartidas y herramientas de contabilidad.
+   
     <img width="439" height="555" alt="Tarea -1" src="https://github.com/user-attachments/assets/1aa10268-faf2-43f9-a58f-d10aaf104dcf" />
+    
 <img width="431" height="546" alt="Tarea 2 1" src="https://github.com/user-attachments/assets/ce12361d-002a-4f23-8d94-3d0466a91e43" />
+
     2. El perfil del personal de Recepción, que necesita el software de gestión hotelera (PMS) como acceso predeterminado.
+    
 <img width="428" height="547" alt="Tarea 2 2" src="https://github.com/user-attachments/assets/b0b8b1d1-8a74-4b94-be6a-9b1449d92b49" />
+
 <img width="415" height="542" alt="Tarea2 3" src="https://github.com/user-attachments/assets/666255bc-73a0-447f-bdd1-f3a1d9c1f4c5" />
 
 Tarea 3: Registro de Dispositivos (CE c)
@@ -25,14 +30,19 @@ Tarea 3: Registro de Dispositivos (CE c)
 Tarea 4: Diseño de la Estructura de Acceso (CE d)
 • Criterio asociado: Se ha distinguido el propósito de los grupos, sus tipos y ámbitos.
 • Tarea: Diseñar la jerarquía de grupos necesaria para la gestión de permisos. Esto implica distinguir el propósito de los grupos según su función (seguridad vs. distribución) y sus tipos y ámbitos (local de dominio, global, universal) para controlar el acceso a recursos específicos, como impresoras departamentales o carpetas de tarifas confidenciales.
+
  <img width="537" height="620" alt="Ajustes-de-organizacion" src="https://github.com/user-attachments/assets/13a22ab2-04e0-4cda-ba28-619a88c871fb" />
+ 
 <img width="1920" height="1080" alt="Estructura de comando del hotel" src="https://github.com/user-attachments/assets/c6322025-2a58-4f23-8f07-d2764e11dd0a" />
 
 Tarea 5: Implementación de Grupos Funcionales (CE e)
 • Criterio asociado: Se han configurado y gestionado grupos.
 • Tarea: Configurar y gestionar los grupos de seguridad principales basándose en la Tarea 4. Por ejemplo, crear los grupos "GR_Recepción_Diurna" y "GR_Administración_TI". Esta tarea asegura que solo los miembros autorizados puedan acceder a los recursos de red necesarios.
+
 <img width="428" height="479" alt="Admon-jesus" src="https://github.com/user-attachments/assets/7564ef63-3611-4027-b459-54f5436d5ba0" />
+
 <img width="421" height="474" alt="Grupo-de-administracion-del--hotel" src="https://github.com/user-attachments/assets/2a487c7f-bb17-44e7-be45-01823b520d02" />
+
 <img width="422" height="476" alt="miembros-del-servicio-del-hotel" src="https://github.com/user-attachments/assets/d716e155-565d-406f-ae79-60e8d154db08" />
 
 Tarea 6: Asignación de Permisos (CE f)
