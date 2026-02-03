@@ -1,6 +1,7 @@
 Tarea 1: Creación de Cuentas Operativas (CE a)
 • Criterio asociado: Se han configurado y gestionado cuentas de usuario.
 • Tarea: Configurar las nuevas cuentas de usuario para los empleados de la temporada alta (personal de recepción y nuevos camareros). Esto incluye establecer las políticas de caducidad de contraseñas y las restricciones horarias de inicio de sesión para el personal operativo, asegurando la correcta gestión de cuentas de usuario.
+
 R) Para esta tarea he creado usuarios para cada empleado que pueda necesitar un ordenador o maquina conectada al servidor del horaio diurno y nocturno y de la rmama de administracion del hotel, tambien le he entrgado todo los permisos disponibles al usuario controller.
 <img width="439" height="555" alt="Tarea -1" src="https://github.com/user-attachments/assets/31f8c395-bf19-4d53-8d4a-65151494287c" />
 <img width="430" height="543" alt="Tarea 1 2png" src="https://github.com/user-attachments/assets/bf130dc4-5a4e-4874-8d8b-0fc1058a117b" />
@@ -9,6 +10,7 @@ R) Para esta tarea he creado usuarios para cada empleado que pueda necesitar un 
 Tarea 2: Definición de Entornos de Trabajo (CE b)
 • Criterio asociado: Se han configurado y gestionado perfiles de usuario.
 • Tarea: Configurar y gestionar los perfiles de usuario específicos para dos roles críticos:
+
     1. El perfil del Controller (administrador financiero), que requiere acceso restringido a carpetas compartidas y herramientas de contabilidad.
     <img width="1402" height="890" alt="image" src="https://github.com/user-attachments/assets/edad65db-d99c-41a4-a1f7-7b751691db7a" />
 
@@ -37,6 +39,7 @@ Tarea 3: Registro de Dispositivos (CE c)
 Tarea 4: Diseño de la Estructura de Acceso (CE d)
 • Criterio asociado: Se ha distinguido el propósito de los grupos, sus tipos y ámbitos.
 • Tarea: Diseñar la jerarquía de grupos necesaria para la gestión de permisos. Esto implica distinguir el propósito de los grupos según su función (seguridad vs. distribución) y sus tipos y ámbitos (local de dominio, global, universal) para controlar el acceso a recursos específicos, como impresoras departamentales o carpetas de tarifas confidenciales.
+
 R)Aquí hay una representación gráfica de como va a ser la estructura de acceso de los trbajadores del hotel.
 
  
@@ -47,6 +50,7 @@ Tarea 5: Implementación de Grupos Funcionales (CE e)
 • Tarea: Configurar y gestionar los grupos de seguridad principales basándose en la Tarea 4. Por ejemplo, crear los grupos "GR_Recepción_Diurna" y "GR_Administración_TI". Esta tarea asegura que solo los miembros autorizados puedan acceder a los recursos de red necesarios.
 
 R) He creado distintos grupos con distintos propositos y asignado a los usurios correctos a cada uno de estos. ( Admon, Servicio al cliente diurno, servicio al cliente nocturno, mantenimiento del hotel diurno/nocturno, personal de seguridad, alimentacion diurna/nocturna, recursos humanos, etc...)
+
 <img width="428" height="479" alt="Admon-jesus" src="https://github.com/user-attachments/assets/7564ef63-3611-4027-b459-54f5436d5ba0" />
 
 
@@ -56,6 +60,7 @@ R) He creado distintos grupos con distintos propositos y asignado a los usurios 
 Tarea 6: Asignación de Permisos (CE f)
 • Criterio asociado: Se ha gestionado la pertenencia de usuarios a grupos.
 • Tarea: Gestionar la pertenencia de usuarios a grupos. Asignar a todos los empleados creados en la Tarea 1 a los grupos funcionales apropiados creados en la Tarea 5. Se debe asegurar, por ejemplo, que solo los miembros de "GR_Administración_TI" tengan acceso al servidor de copias de seguridad.
+
 R) Los usuarios del grupo de admon tienen mas acceso a las herramientas administrativas que los del grupo servicio al cliente, cada uno tiene progresivamente menos permisos y acceso a información con el controoler y grupo admon con mas permisos que el resto.
 
 <img width="1402" height="890" alt="image" src="https://github.com/user-attachments/assets/aeca8ce5-83de-4997-9390-2c9414b075d0" />
@@ -67,6 +72,7 @@ Tarea 7: Auditoría de Seguridad Inicial (CE g)
 Tarea 8: Movilidad y Despliegue de Perfiles (CE h)
 • Criterio asociado: Se han planificado perfiles móviles de usuarios.
 • Tarea: Planificar perfiles móviles de usuarios para el equipo de Dirección y Mantenimiento. Dado que estos empleados rotan entre diferentes ubicaciones (oficinas, almacenes, zonas comunes) y utilizan distintos equipos, se debe diseñar la estructura de carpetas compartidas y la configuración del servidor que soporten la replicación de sus configuraciones.
+
 R)No se donde puedo encontrar el menu para inicar a realizar esta actividad.
  
 Tarea 9: Aplicación de Herramientas de Administración (CE i)
