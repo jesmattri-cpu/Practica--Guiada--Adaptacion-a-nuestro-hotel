@@ -37,7 +37,7 @@ Tarea 3: Registro de Dispositivos (CE c)
 Tarea 4: Diseño de la Estructura de Acceso (CE d)
 • Criterio asociado: Se ha distinguido el propósito de los grupos, sus tipos y ámbitos.
 • Tarea: Diseñar la jerarquía de grupos necesaria para la gestión de permisos. Esto implica distinguir el propósito de los grupos según su función (seguridad vs. distribución) y sus tipos y ámbitos (local de dominio, global, universal) para controlar el acceso a recursos específicos, como impresoras departamentales o carpetas de tarifas confidenciales.
-
+R)Aquí hay una representación gráfica de como va a ser la estructura de acceso de los trbajadores del hotel.
 
  
 <img width="1920" height="1080" alt="Estructura de comando del hotel" src="https://github.com/user-attachments/assets/c6322025-2a58-4f23-8f07-d2764e11dd0a" />
@@ -46,6 +46,7 @@ Tarea 5: Implementación de Grupos Funcionales (CE e)
 • Criterio asociado: Se han configurado y gestionado grupos.
 • Tarea: Configurar y gestionar los grupos de seguridad principales basándose en la Tarea 4. Por ejemplo, crear los grupos "GR_Recepción_Diurna" y "GR_Administración_TI". Esta tarea asegura que solo los miembros autorizados puedan acceder a los recursos de red necesarios.
 
+R) He creado distintos grupos con distintos propositos y asignado a los usurios correctos a cada uno de estos. ( Admon, Servicio al cliente diurno, servicio al cliente nocturno, mantenimiento del hotel diurno/nocturno, personal de seguridad, alimentacion diurna/nocturna, recursos humanos, etc...)
 <img width="428" height="479" alt="Admon-jesus" src="https://github.com/user-attachments/assets/7564ef63-3611-4027-b459-54f5436d5ba0" />
 
 
@@ -55,6 +56,7 @@ Tarea 5: Implementación de Grupos Funcionales (CE e)
 Tarea 6: Asignación de Permisos (CE f)
 • Criterio asociado: Se ha gestionado la pertenencia de usuarios a grupos.
 • Tarea: Gestionar la pertenencia de usuarios a grupos. Asignar a todos los empleados creados en la Tarea 1 a los grupos funcionales apropiados creados en la Tarea 5. Se debe asegurar, por ejemplo, que solo los miembros de "GR_Administración_TI" tengan acceso al servidor de copias de seguridad.
+R) Los usuarios del grupo de admon tienen mas acceso a las herramientas administrativas que los del grupo servicio al cliente, cada uno tiene progresivamente menos permisos y acceso a información con el controoler y grupo admon con mas permisos que el resto.
 
 <img width="1402" height="890" alt="image" src="https://github.com/user-attachments/assets/aeca8ce5-83de-4997-9390-2c9414b075d0" />
 
